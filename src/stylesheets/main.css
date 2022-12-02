@@ -1,0 +1,33 @@
+/* VARIABLES */
+:root {
+	--main-font: "Nunito", san-serif;
+	/* --main-accent:;
+	--sub-accent:; */
+}
+
+/* SETUP */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+body {
+	font-family: "Nunito";
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+/* COMPONENTS */
+.container {
+	border: 1px solid red;
+	width: 70%;
+	height: 100%;
+	margin: 0 auto;
+}
